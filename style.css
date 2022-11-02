@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #02391a;
+}
+
+.logo {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: normal;
+}
+
+h2, h1, p {
+    font-family: 'Italiana', serif;
+}
+
+
+h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: normal;
+    margin-right: auto;
+    padding: 40px 80px;
+}
+
+.navbar {
+    margin-right: 80px;
+}
+
+.nav-links li {
+    display: inline-block;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.nav-links a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+button {
+    background-color: #e3b04b;
+    border-color: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 15px;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #e3b999;
+}
+
+button a {
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+p {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 10px;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+div h1 {
+    color: #e3b04b;
+}
+
+/* Contact */
+.subtitle {
+    font-size: 60px;
+}
+
+.contact-address {
+    background-color: #5d7131;
+    border-radius: 50px;
+    min-width: 400px;
+    min-height: 250px;
+}
+
+
+/* Opening hours */
+
+/* .hours-page {
+    display: flex;
+
+} */
+
+.hours-opening {
+    background-color: #5d7131;
+    border-radius: 30px;
+    color: #ffffff;
+    height: 250px;
+    margin-left: 100px;
+    width: 600px;
+    text-align: center;
+}
+
+.hours-opening h3 {
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+.hours-opening p {
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+} 
+
+.hours-info {
+    background-color: #5d7131;
+    border-radius: 30px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin: 100px 50px;
+    height: 120px;
+    width: 450px;
+    text-align: center;
+}
+
+.hours-info p {
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Events */
+
+.events-weekly {
+    background-color: #5d7131;
+    border-radius: 30px;
+    color: #ffffff;
+    height: 250px;
+    margin-left: 100px;
+    width: 600px;
+    text-align: center;
+}
+
+.events-weekly h3 {
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+/* .events-weekly p {
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+}  */
+
+.events-monthly {
+    background-color: #5d7131;
+    border-radius: 30px;
+    color: #ffffff;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    float: right;
+    margin: 100px 50px;
+    height: 200px;
+    width: 450px;
+    text-align: center;
+}
+
+.events-monthly h3 {
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+/* Menu */
+
+.menu-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 200px;
+    grid-gap: 50px;
+    grid-template-areas: 
+    "menu-left menu-right"
+    "menu-bottom menu-bottom";
+}
+
+.menu-left {
+    grid-area: menu-left;
+    background-color: #5d7131;
+    border-radius: 30px;
+    margin-left: 100px ;
+}
+
+.menu-right {
+    grid-area: menu-right;
+    background-color: #5d7131;
+    border-radius: 30px;
+    margin-right: 100px;
+}
+
+.menu-bottom {
+    grid-area: menu-bottom;
+    background-color: #5d7131;
+    border-radius: 30px;
+    margin: 0 100px;
+}
+
+/* Store */
+
+.store-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px 300px;
+    grid-gap: 50px;
+}
+
+.store-top {
+    background-color: #5d7131;
+    border-radius: 30px;
+    margin: 0 100px ;
+}
+
+.store-bottom {
+    background-color: #5d7131;
+    border-radius: 30px;
+    margin: 0 100px ;
+}
